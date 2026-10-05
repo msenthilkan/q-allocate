@@ -1,0 +1,395 @@
+{
+  "instance": "scale_32",
+  "n_qubits": 32,
+  "milp_cost": 59481.4,
+  "milp_seconds": 0.0795526219999374,
+  "milp_without_capacity": 56673.90000000001,
+  "runs": {
+    "exact": {
+      "approx_ratio": 1.0,
+      "best_cost": 59481.4,
+      "best_q": [
+        [
+          0,
+          0,
+          100,
+          0
+        ],
+        [
+          150,
+          20,
+          40,
+          0
+        ],
+        [
+          0,
+          30,
+          0,
+          50
+        ],
+        [
+          0,
+          20,
+          0,
+          100
+        ]
+      ],
+      "seconds": 0.49907171900008507,
+      "sub_qubo_sizes": [
+        16,
+        16
+      ],
+      "log": [
+        {
+          "iteration": 1,
+          "lambda": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_overload_relaxed": 147,
+          "recovered_cost": 60333.4,
+          "best_cost": 60333.4,
+          "dual_bound": 56673.900000000256
+        },
+        {
+          "iteration": 2,
+          "lambda": [
+            15.98,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_overload_relaxed": 77,
+          "recovered_cost": 60283.0,
+          "best_cost": 60283.0,
+          "dual_bound": 58474.277726757755
+        },
+        {
+          "iteration": 3,
+          "lambda": [
+            17.992,
+            0.0,
+            0.0,
+            4.185
+          ],
+          "max_overload_relaxed": 97,
+          "recovered_cost": 59848.700000000004,
+          "best_cost": 59848.700000000004,
+          "dual_bound": 58803.14908730482
+        },
+        {
+          "iteration": 4,
+          "lambda": [
+            22.678,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_overload_relaxed": 177,
+          "recovered_cost": 59481.4,
+          "best_cost": 59481.4,
+          "dual_bound": 57992.09026058046
+        },
+        {
+          "iteration": 5,
+          "lambda": [
+            19.411,
+            0.0,
+            0.0,
+            4.348
+          ],
+          "max_overload_relaxed": 27,
+          "recovered_cost": 59481.4,
+          "best_cost": 59481.4,
+          "dual_bound": 58883.19127979737
+        },
+        {
+          "iteration": 6,
+          "lambda": [
+            19.904,
+            0.0,
+            0.0,
+            5.131
+          ],
+          "max_overload_relaxed": 97,
+          "recovered_cost": 59848.700000000004,
+          "best_cost": 59481.4,
+          "dual_bound": 58900.65510951836
+        },
+        {
+          "iteration": 7,
+          "lambda": [
+            22.247,
+            0.0,
+            0.0,
+            2.884
+          ],
+          "max_overload_relaxed": 177,
+          "recovered_cost": 59481.4,
+          "best_cost": 59481.4,
+          "dual_bound": 58560.00516851063
+        },
+        {
+          "iteration": 8,
+          "lambda": [
+            20.38,
+            0.0,
+            0.0,
+            5.369
+          ],
+          "max_overload_relaxed": 77,
+          "recovered_cost": 60144.3,
+          "best_cost": 59481.4,
+          "dual_bound": 58920.08940513984
+        },
+        {
+          "iteration": 9,
+          "lambda": [
+            21.775,
+            0.0,
+            0.0,
+            4.047
+          ],
+          "max_overload_relaxed": 177,
+          "recovered_cost": 59481.4,
+          "best_cost": 59481.4,
+          "dual_bound": 58828.48534220701
+        },
+        {
+          "iteration": 10,
+          "lambda": [
+            20.323,
+            0.0,
+            0.0,
+            5.979
+          ],
+          "max_overload_relaxed": 97,
+          "recovered_cost": 59848.700000000004,
+          "best_cost": 59481.4,
+          "dual_bound": 58862.43425122132
+        },
+        {
+          "iteration": 11,
+          "lambda": [
+            21.729,
+            0.0,
+            0.0,
+            4.631
+          ],
+          "max_overload_relaxed": 27,
+          "recovered_cost": 59481.4,
+          "best_cost": 59481.4,
+          "dual_bound": 58930.23219712961
+        },
+        {
+          "iteration": 12,
+          "lambda": [
+            21.953,
+            0.0,
+            0.0,
+            4.987
+          ],
+          "max_overload_relaxed": 27,
+          "recovered_cost": 59481.4,
+          "best_cost": 59481.4,
+          "dual_bound": 58943.64644386173
+        }
+      ]
+    },
+    "qaoa": {
+      "approx_ratio": 0.9898833902208879,
+      "best_cost": 60089.3,
+      "best_q": [
+        [
+          20,
+          0,
+          50,
+          30
+        ],
+        [
+          50,
+          20,
+          40,
+          100
+        ],
+        [
+          50,
+          30,
+          0,
+          0
+        ],
+        [
+          20,
+          0,
+          100,
+          0
+        ]
+      ],
+      "seconds": 72.80640074300004,
+      "sub_qubo_sizes": [
+        16,
+        16
+      ],
+      "log": [
+        {
+          "iteration": 1,
+          "lambda": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_overload_relaxed": 77,
+          "recovered_cost": 60378.2,
+          "best_cost": 60378.2,
+          "dual_bound": null
+        },
+        {
+          "iteration": 2,
+          "lambda": [
+            0.0,
+            0.0,
+            0.0,
+            8.929
+          ],
+          "max_overload_relaxed": 57,
+          "recovered_cost": null,
+          "best_cost": 60378.2,
+          "dual_bound": null
+        },
+        {
+          "iteration": 3,
+          "lambda": [
+            4.813,
+            0.0,
+            0.0,
+            1.076
+          ],
+          "max_overload_relaxed": 27,
+          "recovered_cost": 60089.3,
+          "best_cost": 60089.3,
+          "dual_bound": null
+        },
+        {
+          "iteration": 4,
+          "lambda": [
+            3.702,
+            0.0,
+            0.0,
+            2.381
+          ],
+          "max_overload_relaxed": 37,
+          "recovered_cost": 60575.9,
+          "best_cost": 60089.3,
+          "dual_bound": null
+        },
+        {
+          "iteration": 5,
+          "lambda": [
+            4.707,
+            0.0,
+            0.0,
+            2.571
+          ],
+          "max_overload_relaxed": 37,
+          "recovered_cost": 60190.7,
+          "best_cost": 60089.3,
+          "dual_bound": null
+        },
+        {
+          "iteration": 6,
+          "lambda": [
+            5.754,
+            0.0,
+            0.0,
+            1.921
+          ],
+          "max_overload_relaxed": 147,
+          "recovered_cost": 60144.3,
+          "best_cost": 60089.3,
+          "dual_bound": null
+        },
+        {
+          "iteration": 7,
+          "lambda": [
+            8.653,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_overload_relaxed": 57,
+          "recovered_cost": 60137.6,
+          "best_cost": 60089.3,
+          "dual_bound": null
+        },
+        {
+          "iteration": 8,
+          "lambda": [
+            8.768,
+            0.0,
+            0.0,
+            0.944
+          ],
+          "max_overload_relaxed": 77,
+          "recovered_cost": null,
+          "best_cost": 60089.3,
+          "dual_bound": null
+        },
+        {
+          "iteration": 9,
+          "lambda": [
+            8.116,
+            0.0,
+            0.0,
+            2.466
+          ],
+          "max_overload_relaxed": 47,
+          "recovered_cost": 60172.9,
+          "best_cost": 60089.3,
+          "dual_bound": null
+        },
+        {
+          "iteration": 10,
+          "lambda": [
+            9.211,
+            0.0,
+            0.0,
+            1.232
+          ],
+          "max_overload_relaxed": 87,
+          "recovered_cost": null,
+          "best_cost": 60089.3,
+          "dual_bound": null
+        },
+        {
+          "iteration": 11,
+          "lambda": [
+            9.931,
+            0.0,
+            0.0,
+            1.456
+          ],
+          "max_overload_relaxed": 87,
+          "recovered_cost": 60208.6,
+          "best_cost": 60089.3,
+          "dual_bound": null
+        },
+        {
+          "iteration": 12,
+          "lambda": [
+            10.74,
+            0.0,
+            0.0,
+            1.242
+          ],
+          "max_overload_relaxed": 47,
+          "recovered_cost": null,
+          "best_cost": 60089.3,
+          "dual_bound": null
+        }
+      ]
+    }
+  }
+}

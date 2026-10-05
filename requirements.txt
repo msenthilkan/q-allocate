@@ -1,0 +1,8 @@
+numpy>=1.24
+scipy>=1.10
+qiskit>=1.0
+qiskit-aer>=0.14
+pulp>=2.8,<3          # 3.x no longer bundles the CBC solver
+matplotlib>=3.7
+pytest>=7
+amazon-braket-sdk>=1.80   # only needed for scripts/05_braket_sv1.py
